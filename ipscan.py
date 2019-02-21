@@ -5,7 +5,7 @@ in the directory must be file Dia.txt, why, because.
 '''
 import socket
 import subprocess as sub
-import threading,sys
+import threading
 
 while:
     try:
