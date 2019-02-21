@@ -92,7 +92,10 @@ def CheckIps():
     for i in range(n):
         t[i].start()
     for i in range(n):
-        e[i].set()
+        try:
+            e[i].set()
+        except:
+            break
     for i in range(n):
         t[i].join()
         
