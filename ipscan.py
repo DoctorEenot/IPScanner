@@ -7,7 +7,7 @@ import socket
 import subprocess as sub
 import threading
 
-while:
+while True:
     try:
         
         PR = int(input("Port : "))#Port
