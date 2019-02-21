@@ -58,7 +58,7 @@ def scan(ip,ew,es):
     ew.clear()
     if ips!=[]:
         print(ips)
-        port = str(port)
+        port = str(PR)
         for i in range(len(ips)):
             file.write(ips[i]+':'+port+'\n')
     es.set()
